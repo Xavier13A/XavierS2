@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XavierS2.Registro">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Frame BackgroundColor="#2196F3" Padding="18" CornerRadius="0">
+                <Label Text="Sistema de calificaciones " HorizontalTextAlignment="Center" TextColor="White" FontSize="24"/>
+            </Frame>
+            
+            <Label Text="PARCIAL 1"
+            HorizontalOptions="CenterAndExpand" FontSize="Medium" Background="white"/>
+
+
+       
+
+        <!--Este ejercicio es solo para ingresar texto y numero-->
+             
+            <Entry x:Name="txtNombre" Placeholder="Ingrese su Nombre"/>
+            <Entry x:Name="txtApellido" Placeholder="Ingrese su Apellido"/>
+            <Entry x:Name="txtNota" Placeholder="Ingrese su Nota final" Keyboard="Numeric"/>
+            
+
+       
+            
+        
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
