@@ -4,6 +4,7 @@
              x:Class="XavierS2.Registro">
     <ContentPage.Content>
         <StackLayout>
+            <Label x:Name="lblUsuario" Text="." HorizontalTextAlignment="End" FontSize="20"/>
 
             <Frame BackgroundColor="#2196F3" Padding="18" CornerRadius="0">
                 <Label Text="Sistema de calificaciones " HorizontalTextAlignment="Center" TextColor="White" FontSize="24"/>

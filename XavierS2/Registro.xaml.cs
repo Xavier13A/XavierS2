@@ -12,15 +12,16 @@ namespace XavierS2
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Registro : ContentPage
     {
-        public Registro()
+        public Registro(String usuario)
         {
             InitializeComponent();
+            lblUsuario.Text ="El usuario conectado es "+ usuario;
         }
 
         private void btnInformción_Clicked(object sender, EventArgs e)
         {
            
-            //Este ejercicio es solo para ingresar texto y numero
+            //Este ejercicio es solo para ingresar texto y numeroffff
             string nombre = txtNombre.Text;
             string apellido = txtApellido.Text;
             double nota = Convert.ToDouble(txtNota.Text);

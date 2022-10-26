@@ -28,7 +28,7 @@ namespace XavierS2
             if (usuario == TUsuario & Contrasena == TContrasena)
             {
                 DisplayAlert("Alerta", "Usuario Correcto", "Cerrar");
-                Navigation.PushAsync(new Registro()); // activacion de a la siguiente ventana
+                Navigation.PushAsync(new Registro(txtUsuario.Text)); // activacion de a la siguiente ventana
 
             }    
             else
