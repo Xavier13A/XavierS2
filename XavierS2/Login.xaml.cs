@@ -19,8 +19,8 @@ namespace XavierS2
 
         private void btnIniciar_Clicked(object sender, EventArgs e)
         {
-            string usuario = "XavierI";
-            string Contrasena = "12345";
+            string usuario = "estudiante2022";
+            string Contrasena = "uisrael2022";
 
             string TUsuario = txtUsuario.Text;
             string TContrasena = txtContraseña.Text;
